@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #171723;
+}
+
+.todo{
+  width: 400px;
+  margin: 150px auto;
+}
+
+.header{
+  background-color: #24273d;
+  padding: 10px;
+}
+
+.circle-btn{
+  background-color: transparent;
+  color: #a9a8d2;
+  border: 1px solid #a9a8d2;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  float: left;
+}
+
+.header input{
+  background-color: transparent;
+  margin-left: 5px;
+  width: calc(100% - 35px);
+  padding: 5px;
+  outline: none;
+  border: none;
+  color: #a9a8d2;
+}
+
+.main{
+  background-color: #24273d;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.main-item{
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: #a4a5be;
+  padding: 10px 0;
+  border-bottom: 1px solid #a4a5be;
+}
+
+.footer{
+  background-color: #24273d;
+  color: #a4a5be; 
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer button{
+  background-color: transparent;
+  border: none;
+  color: #a4a5be;
+}
+.footer-center{
+  display: flex;
+  column-gap: 5px;
+}
+
+.app{
+  background-image: url(components/neon-city.jpg);
+  background-size: cover;
+}
